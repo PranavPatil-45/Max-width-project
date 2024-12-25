@@ -1,0 +1,483 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar
+{
+    width: 100%;
+    height: 80px;
+    background-color:whitesmoke;
+    position: fixed;
+    z-index: 1;
+
+}
+.btn1
+{
+    visibility: hidden;
+}
+.navbarcontainer
+{
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.brand
+{
+    width: 15%;
+   
+    height: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.brand a
+{
+    text-decoration: none;
+    color: black;
+}
+.list
+{
+    width: 75%;
+    display: flex;
+    justify-content: end;
+}
+.list ul 
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+}
+.list ul li
+{
+    padding-right: 55px;
+    transition: 0.5s;
+}
+.list ul li:hover
+{
+    color: blue;
+}
+.list ul li a
+{
+    text-decoration: none;
+}
+.banner
+{
+    background-image:url('images/bg1_001.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.banner1
+{
+    background-image:    url('images/bg2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+   
+}
+.txt1
+{
+    width: 35%;
+    height: 300px;
+  
+    position: relative;
+    left: 32%;
+    top: 30%;
+    text-align: center;
+    z-index: -999%;
+}
+.txt1 h1
+{
+    font-size: 92px;
+}
+.txt1 h5
+{
+    font-size: 18px;
+}
+.txt1 button
+{
+    background-color: black;
+    color: white;
+    height: 45px;
+    width: 140px;
+    outline: none;
+    border: none;
+    margin-top: 5%;
+    border: 3px solid black;
+    transition: 0.5s;
+}
+.txt1 button a
+{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+
+}
+.txt1 button:hover
+{
+    background-color: white;
+    color: black;
+  
+}
+.scroll
+{
+    height: 600px;
+    width: 100%;
+   
+}
+.div1
+{
+    height: 100%;
+    width: 50%;
+   
+    float: left;
+}
+.div2
+{
+    height: 100%;
+    width: 50%;
+    background-color: red;
+    float: left;
+    background-image: url('images/bx2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.txt2
+{
+    height: 550px;
+    width: 60%;
+   
+    float: right;
+    margin-top: 5%;
+}
+.txt2 hr
+{
+    width: 10%;
+    border: 2px solid black;
+
+}
+.txt2 h1
+{
+    line-height: 45px;
+    letter-spacing: 10px;
+}
+.txt2 p
+{
+    height: 200px;
+    width: 70%;
+    line-height: 25px;
+}
+.bt1 
+{
+    position: relative;
+    top:25%;
+    height: 45px;
+    width: 140px;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: 2px solid black;
+    transition: 0.5s;
+}
+.bt1:hover
+{
+    background-color: white;
+    color: black;
+}
+.bt2
+{
+    position: relative;
+    top:25%;
+    left: 5%;
+    height: 45px;
+    width: 160px;
+    background-color:white;
+    color:black;
+    outline: none;
+    border: 2px solid black;
+    transition: 0.5s;
+}
+.bt2:hover
+{
+    background-color: black;
+    color: white;
+}
+.info
+{
+    height: 650px;
+    width: 80%;
+    position: relative;
+    top: 5%;
+    margin: auto;
+   
+ 
+}
+.info hr
+{
+    width: 8%;
+    border: 3px solid black;
+
+}
+.info h1
+{
+    line-height: 55px;
+    letter-spacing: 5px;
+    font-size: 52px;
+}
+.column
+{
+    width: 100%;
+    height: 450px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.col1
+{
+    height: 430px;
+    width: 30%;
+    
+    border: 10px solid black;
+}
+.col2
+{
+    height: 430px;
+    width: 30%;
+    
+    border: 10px solid black;
+}
+.col3
+{
+    height: 430px;
+    width: 30%;
+    
+    border: 10px solid black;
+}
+.col1 h1
+{
+    text-align: center;
+    font-size: 32px;
+    padding-top: -5px;
+}
+.col1 p
+{
+    text-align: center;
+}
+.col1 hr
+{
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 5%;
+}
+.cl1
+{
+    margin-top: 16%;
+    position: relative;
+    left: 30%;
+    height: 45px;
+    width: 140px;
+    background-color: black;
+    outline: none;
+    border: 2px solid black;
+    color: white;
+    transition: 0.5s;
+}
+.cl1:hover
+{
+    background-color: white;
+    color: black;
+}
+
+
+
+.col2 h1
+{
+    text-align: center;
+    font-size: 32px;
+    padding-top: -5px;
+}
+.col2 p
+{
+    text-align: center;
+}
+.col2 hr
+{
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 5%;
+}
+
+.col3 h1
+{
+    text-align: center;
+    font-size: 32px;
+    padding-top: -5px;
+}
+.col3 p
+{
+    text-align: center;
+}
+.col3 hr
+{
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 5%;
+}
+.footer
+{
+    height: 650px;
+    width: 100%;
+    background-color: skyblue;
+    display: flex;
+}
+.credit
+{
+    height: 100%;
+    width: 50%;
+  
+   
+}
+.form
+{
+    height: 100%;
+    width: 50%;
+  
+  
+}
+.content
+{
+    height: 80%;
+    width: 80%;
+    float: right;
+    
+    margin-top: 5%;
+}
+.content hr
+{
+    width: 7%;
+    border: 2px solid black;
+}
+.content h2 i
+{
+    margin-right: 15px;
+}
+.frm
+{
+    height: 90%;
+    width: 90%;
+    margin: 5%;
+   
+   
+}
+.fr
+{
+    font-size: 19px;
+}
+.inp1
+{
+    width: 40%;
+    height: 40px;
+    background-color: skyblue;
+    outline: none;
+    border: 3px solid black;
+    margin-top: 2%;
+    padding-left: 15px;
+}
+.ls
+{
+    position: relative;
+    left: 45%;
+    width: 15%;
+    top: -13%;
+    font-size: 19px;
+}
+.inp2
+{
+    width: 35%;
+    height: 40px;
+    background-color: skyblue;
+    outline: none;
+    border: 3px solid black;
+    position: relative;
+    left: 45%;
+    top: -10.6%;
+    padding-left: 15px;
+}
+.eml
+{
+    font-size: 19px;
+}
+.inp3
+{
+    width: 80%;
+    height: 40px;
+    background-color: skyblue;
+    outline: none;
+    border: 3px solid black;
+    padding-left: 15px;
+}
+.sub
+{
+    margin-top: 10%;
+    font-size: 19px;
+}
+.inp4
+{
+    width: 80%;
+    height: 40px;
+    background-color: skyblue;
+    outline: none;
+    border: 3px solid black;
+    padding-left: 15px;
+}
+
+.msg
+{
+    margin-top: 8%;
+    font-size: 19px;
+}
+.inp5
+{
+    width: 80%;
+    height: 100px;
+    background-color: skyblue;
+    outline: none;
+    border: 3px solid black;
+    padding-left: 15px;
+}
+.sbm
+{
+    height: 50px;
+    width: 180px;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: 2px solid black;
+    position: relative;
+    left: 54%;
+    top: 3%;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.sbm:hover
+{
+    background-color: white;
+    color: black;
+}

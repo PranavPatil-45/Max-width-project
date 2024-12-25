@@ -1,0 +1,530 @@
+@media(max-width:320px)
+{   
+    .navbar
+    {
+        width: 100%;
+        height: 70px;
+    }
+    .list
+    {
+        visibility: hidden;
+    }
+    .navbarcontainer
+    {
+        width: 80%;
+        margin: auto;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       
+    }
+    .btn1
+    {
+        visibility: visible;
+        position: relative;
+        left: -5%;
+    }
+    .banner
+    {
+        width: 100%;
+    }
+    
+    .brand
+    {
+        width: 100%;
+        position: relative; 
+        right: 6%;
+        height: 50px;
+        top: 15%;
+        margin-left: 5%;
+        
+    }
+    .brand a h3
+    {
+        font-size: 12px;
+        letter-spacing: 7px;
+        text-align: center;
+    }
+    .brand a p
+    {
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+    .txt1
+    {
+        width: 80%;
+        height: 300px;
+        position: relative;
+        margin-left: -2%;
+        top: 25%;
+    
+    }
+    .txt1 h1
+    {
+        font-size: 42px;
+        margin-left: 10%;
+    }
+    .txt1 h5
+    {
+        font-size: 18px;
+    }
+   
+
+    .div1
+    {
+        float: none;
+        width: 90%;
+
+    }
+    .div2
+    {
+        height: 500px;
+        float: none;
+        width: 100%;
+         background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .txt2
+    {
+        height: 550px;
+        width: 80%;
+      
+        float: none;
+        position: relative;
+        left: -15%;
+       
+    }
+    .txt2 p
+    {
+        width: 90%;
+        margin: auto;
+        line-height: 20px;
+        padding: 5px;
+    }
+    .txt2 hr
+    {
+        position: relative;
+        left: 5%;
+    }
+    .txt2 h1
+    {
+        position: relative;
+        left: 5%;
+    }
+    .bt1
+    {
+       height: 45px;
+       width: 100px;
+       margin-left: 5%;
+       margin-top: 5%;
+    }
+    .banner1
+    {
+        visibility: hidden;
+    }
+    .bt2
+    {
+        height: 45px;
+        width: 140px;
+        margin-top: 5%;
+    }
+    .info
+    {
+        position: relative;
+        top: 50%;
+        visibility: visible;
+        
+        
+    }
+    .column
+    {
+        visibility: visible;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .col1
+    {
+        width: 100%;
+
+    }
+    .col1 h1
+    {
+       
+        font-size: 28px;
+        text-align: center;
+    }
+    .col2 h1
+    {
+       
+        font-size: 28px;
+        text-align: center;
+    }
+    .col3 h1
+    {
+       
+        font-size: 28px;
+        text-align: center;
+    }
+    .col2
+    {
+        width: 100%;
+        margin-top: 5%;
+
+    }
+    .col3
+    {
+        width: 100%;
+        margin-top: 5%;
+    }
+    .cl1
+    {
+        position: relative;
+        top: -5%;
+        left:20px;
+    }
+    .content
+    {
+        margin-top: 50%;
+    }
+    .footer
+    {
+        position: relative;
+        top: 950px;
+        display: flex;
+        flex-direction: column  ;
+    }
+    .form
+    {
+        width: 100%;
+        background-color: skyblue;
+    }
+    .frm
+    {
+        width: 80%;
+        margin-top: 25%;
+    }
+    .fr
+    {
+        position: relative;
+        top: -50px;
+        width: 100%;
+    }
+    .inp1
+    {
+        width: 100%;
+        position: relative;
+        top: -10%;
+    }    
+    .ls
+    {
+        margin-top: 45%;
+        width: 50%;
+        position: relative;
+        left: 0.5%;
+        top: 5px;
+    
+    }
+    .inp2
+    {
+        width: 100%;
+        position: relative;
+        left: 1%;
+        margin-top: 15%;
+    }
+    .eml
+    {
+        position: relative;
+        top: -7%;
+    }
+    .inp3
+    {
+        position: relative;
+        top: -6%;
+        width: 100%;
+    }
+    .sub
+    {
+        position: relative;
+        top: -6%;
+    }
+    .inp4
+    {
+        position: relative;
+        top: -5%;
+        width: 100%;
+    }
+    .inp5
+    {
+        width: 100%;
+    }
+    .sbm
+    {
+        position: relative;
+        left: 1%;
+    }
+
+}
+
+
+@media(max-width:480px)
+{
+    .navbar
+    {
+        width: 100%;
+    }
+    .navbarcontainer
+    {
+        width: 80%;
+        
+    }
+    .brand
+    {
+        width: 100%;
+       
+        position: relative;
+        left: -8%;
+    }
+    .brand h3
+    {
+        font-size: 14px;
+        letter-spacing: 15px;
+    }
+    .list
+    {
+        visibility: hidden;
+    }
+    .btn1
+    {
+        visibility: visible;
+        width: 90px;
+        height: 50px;
+        position: relative;
+        left: -30%;
+        top: 19%;
+    }
+    .btn1 i
+    {
+       visibility: visible;
+       font-size: 42px;
+    }
+    .txt1
+    {
+        position: relative;
+        left: 32%;
+        text-align: center;
+    }
+    .txt1 h1
+    {
+        font-size: 42px;
+        position: relative;
+        left: -1%;
+    }
+    .txt1 h5
+    {
+        font-size: 12px;
+    }
+    .div1
+    {
+        float: none;
+        width: 100%;
+    }
+    .div2
+    {
+        
+        width: 100%;
+    }
+    .txt2
+    {
+        width: 80%;
+        margin: 0px 50px;
+        margin-right: -5%;
+      
+    }
+    .txt2 p
+    {
+        width: 90%;
+    }
+    .banner1
+    {
+        visibility: hidden;
+        width: 100%;
+    }
+    .info
+    {
+        visibility: visible;
+    }
+
+    .footer
+    {
+        margin-top: 790%;
+        position: relative;
+        top: 90%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 335%;
+    }
+    .column
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .col1
+    {
+        width: 100%;
+    }
+    .col2
+    {
+        margin-top: 15px;
+        width: 100%;
+    }
+    .col3
+    {
+        margin-top: 15px;
+        width: 100%;
+    }
+    .cl1
+    {
+        margin-bottom: 5%;
+        margin-left: -5%;
+    }
+    .credit
+    {
+        width: 100%;
+        
+    }
+    .content
+    {
+        width: 100%;
+        padding-left: 5%;
+    }
+    .form
+    {
+        background-color: skyblue;
+        width: 100%;
+      
+    }
+    .ls
+    {
+        width: 50%;
+        margin-top: -2.5%;
+    }
+    .sbm
+    {
+        position: relative;
+        left: 1%;
+    }
+}   
+
+/* 576 media */
+@media(max-width:576px)
+{
+   .brand
+   {
+    width: 100%;
+   }
+   .brand a h3
+   {
+    font-size: 13px;
+    letter-spacing: 10px;
+   }
+   .brand a p
+   {
+    font-size: 10px;
+    letter-spacing: 5px;
+   }
+    .list
+   {
+    visibility: hidden;
+   }
+   .btn1
+   {
+    visibility: visible;
+    position: relative;
+    left: -15%;
+    top: 15%;
+    width: 50px;
+    height: 50px;
+   }
+   .btn1 i
+   {
+    font-size: 32px;
+   }
+   .txt1
+   {
+    width: 80%;
+    position: relative;
+    left: 10%;
+   
+   }
+   .div1
+   {
+    float: none;
+    width: 90%;
+    position: relative;
+    left: 3%;
+    
+   }
+   .txt2
+   {
+    width: 100%;
+   }
+   .div2
+   {
+    float: none;
+    width: 100%;
+   }
+   .banner1
+   {
+    visibility: hidden;
+   }
+   .info
+   {
+    visibility: visible;
+    margin-top: 120%;
+   }
+   .column
+   {
+    display: flex;
+    flex-direction: column;
+   }
+   .col1
+   {
+    width: 100%;
+   }
+   .col2
+   {
+    margin-top: 10%;
+    width: 100%;
+   }.col3
+   {
+    margin-top: 10%;
+    width: 100%;
+   }
+   .cl1
+   {
+        margin-bottom: 5%;
+        position: relative;
+        left: 35%;
+   }
+   .footer
+   {
+    margin-top: 300%;
+    display: flex;
+    flex-direction: column-reverse;
+   }
+   .form
+   {
+    position: relative;
+    top: 60%;
+    width: 100%;
+    background-color: skyblue;
+   }
+   .credit
+   {
+    margin-top: 80%;
+   }
+   
+
+}
